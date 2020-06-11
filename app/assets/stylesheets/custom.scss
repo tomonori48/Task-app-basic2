@@ -55,7 +55,6 @@ p {
 
 /* ヘッダー */
 
-
 #logo {
   float: left;
   margin-right: 10px;
@@ -69,8 +68,21 @@ p {
 }
 
 #logo:hover {
-  color: #fff;
+  color: #808080;
   text-decoration: none;
+}
+
+li .header-list {
+  color: #fff !important;
+  font-weight: bold;
+  &:hover {
+   color: #808080 !important; 
+  }
+}
+
+
+#dropdown-tltle {
+  background-color: teal;
 }
 
 /* デバッグウインドウ */
